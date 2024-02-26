@@ -20,7 +20,7 @@ variable "zone_name" {
     default = "sowjanyaaws.online"
 }
 variable "iam_instance_profile" {
-default = "admin-role"
+  default = "admin-role"
 }
 variable app_version{
     
