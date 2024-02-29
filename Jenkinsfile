@@ -54,7 +54,7 @@ pipeline{
                 }
             }
             stage('destroy'){
-            when{
+              when{
                 expression{
                     params.destroy
                 }
